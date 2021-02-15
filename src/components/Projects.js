@@ -17,6 +17,7 @@ export default class Projects extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
+          {/* this is a comment */}
           Barouche
         </a>
       </div>
