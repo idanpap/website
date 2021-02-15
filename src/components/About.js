@@ -9,7 +9,7 @@ export default class About extends Component {
           Ironhack
         </a>{" "}
         <p>
-          <ul classList="ironhack-stack">
+          <ul classList="stack">
             <li classList="stack-link">HTML/CSS</li>
             <li classList="stack-link">Responsive Web Design</li>
             <li classList="stack-link">Javascript/ReactJS</li>
@@ -25,7 +25,7 @@ export default class About extends Component {
         >
           Master's degree
         </a>
-        <ul classList="ironhack-stack">
+        <ul classList="stack">
           <li classList="stack-link">Python</li>
           <li classList="stack-link">Java</li>
           <li classList="stack-link">Django</li>
