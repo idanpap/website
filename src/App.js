@@ -7,13 +7,14 @@ import About from "./components/About";
 import CV from "./components/CV";
 import ContactMe from "./components/ContactMe";
 import Projects from "./components/Projects";
+import SideBar from "./components/SideBar";
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-
+        <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
         <Route exact path="/" component={Home} />
         {<Route exact path="/about" component={About} />}
         {<Route exact path="/cv" component={CV} />}

@@ -17,8 +17,23 @@
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media only screen and (max-width: 553px) {
+  .navbar {
+    display: none;
+  }
+  .navbar-list {
+    display: none;
+  }
+  .navbar-link {
+    display: none;
+  }
+  .nav-link {
+    display: none;
+  }
+}
 .navbar {
   width: 100%;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -91,14 +106,26 @@ ul {
 .cv-img {
   border-radius: 25px;
   max-width: 50%;
+
   height: auto;
-  min-width: 150px;
+  min-width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/* @media only screen and (min-width: 553px) {
+  .cv-container {
+    width: 120vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cv-img {
+    width: 768px;
+  }
+} */
 /* button starts here */
 
 .btn {
@@ -163,4 +190,80 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+/* burger stuff */
+@media only screen and (min-width: 553px) {
+  .bm-burger-button {
+    display: none;
+  }
+}
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 24px;
+  top: 24px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #e73beb;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: white;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #8643de;
+}
+.menu-item {
+  color: #8643de;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
 }
