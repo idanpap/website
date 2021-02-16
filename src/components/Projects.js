@@ -36,8 +36,8 @@ export default class Projects extends Component {
             <p>
               Barouche is the third project from the Ironhack bootcamp. This was
               the result of a collabaration between me and two more students. We
-              created a tandem language learning platform with fratures such as
-              a matching function, schedule function, video call, live chat,
+              created a tandem language learning platform with features such as
+              a matching function, a schedule function, video call, live chat,
               screen sharing and conversation topic suggestions. We used
               JavaScript, React,expressJS,socket.io, WebRTC, NodeJS and CSS for
               this project.
