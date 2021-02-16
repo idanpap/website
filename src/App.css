@@ -65,7 +65,7 @@
   text-align: center;
   background-color: white;
   border-radius: 30px;
-  color: #e73beb;
+  color: #c000d6;
   padding: 30px;
   line-height: 1.6;
   overscroll-behavior: none;
@@ -85,7 +85,7 @@
 .cv-container {
   text-align: center;
   background-color: white;
-  color: #e73beb;
+  color: #c000d6;
   padding: 30px;
   line-height: 1.6;
   overscroll-behavior: none;
@@ -193,7 +193,7 @@ section {
 }
 
 .btn span {
-  background: linear-gradient(to right, #e73beb 0%, #e73beb 100%);
+  background: linear-gradient(to right, #c000d6 0%, #c000d6 100%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -259,7 +259,7 @@ section {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #e73beb;
+  background: #c000d6;
 }
 
 /* Position and sizing of clickable cross button */
