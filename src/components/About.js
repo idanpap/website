@@ -4,16 +4,15 @@ export default class About extends Component {
   render() {
     return (
       <div className="about page-default">
-        <h1>About me</h1>
+        <h2>About me</h2>
         <img
           id="daniel-presenting"
           src="../images/daniel-presenting.jpeg"
           alt="Daniel presenting"
         ></img>
         <p>
-          My name is Daniel Papastratidis and I am a software developer,
-          currently looking for a position in a company, from September-October
-          2021.
+          My name is Daniel Papastratidis and I am a software developer. I am
+          available to be hired for a September 2021 start.
         </p>
         <p>
           I love creating, enhancing and maintaning software that has the
@@ -38,8 +37,8 @@ export default class About extends Component {
             Master's degree
           </a>{" "}
           in Data Science . This combination of education models that mixes
-          praxis with theory, has provided me the solid foundations needed
-          launch a career as a software developer.
+          praxis with theory, has provided me with the solid foundations needed
+          to launch a career as a software developer.
         </p>
         <h3>Tech Stack</h3>
         <section classList="stack">
@@ -69,8 +68,8 @@ export default class About extends Component {
           Having been born in London and raised in Athens, I hold
           dual-citizenship, meaning I can work in both the EU and the UK. I
           received my BA in International Business Management from London South
-          Bank University. Prior to my foray into tech, I worked in the tea
-          industry as a taster, buyer and seller in Germany and the UK.
+          Bank University in 2019. Prior to my foray into tech, I worked in the
+          tea industry as a taster, buyer and seller in Germany and the UK.
         </p>
         <p>
           In my free time, I like to read books and solve challenges platforms

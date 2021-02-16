@@ -297,3 +297,14 @@ section {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+}
+
+#project-div {
+  margin-top: 15px;
+}
