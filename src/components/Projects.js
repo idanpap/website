@@ -3,6 +3,7 @@ import React, { Component } from "react";
 export default class Projects extends Component {
   render() {
     return (
+      // maybe make projects pop out and interactive?
       <div className="page-default">
         <h2>Projects</h2>
         <aside id="projects-container">
