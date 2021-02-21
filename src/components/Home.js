@@ -15,7 +15,7 @@ export default class Home extends Component {
           alt="My face"
         ></img>
         <h1 id="job-title">Daniel Papastratidis</h1>
-        <h2 id="job-title">Software Developer</h2>
+        <h2 id="job-title">Web Developer</h2>
         <p>
           Full stack developer. Adaptable, curious, energetic and a fast
           learner, I am equally happy self-motivating and working in a team.

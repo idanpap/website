@@ -11,7 +11,7 @@ export default class About extends Component {
           alt="Daniel presenting"
         ></img>
         <p>
-          My name is Daniel Papastratidis and I am a software developer. I am
+          My name is Daniel Papastratidis and I am a web developer. I am
           available to be hired for a September 2021 start.
         </p>
         <p>
