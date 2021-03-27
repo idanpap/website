@@ -8,7 +8,7 @@ import CV from "./components/CV";
 import ContactMe from "./components/ContactMe";
 import Projects from "./components/Projects";
 import SideBar from "./components/SideBar";
-
+// rendering
 export default class App extends Component {
   render() {
     return (
